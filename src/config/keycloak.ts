@@ -3,8 +3,8 @@ import Keycloak from 'keycloak-js';
 // Create Keycloak instance with explicit redirectUri
 const keycloak = new Keycloak({
   url: 'http://localhost:8080',
-  realm: 'react-frontend',
-  clientId: 'react-frontend'
+  realm: 'OBRM-Keycloak',
+  clientId: 'react-web-frontend'
 });
 
 // Configure initialization options
